@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio website</title>
+        <link rel="stylesheet" href="summer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!----hero Section start---->
+    
+        <div class="hero">
+            <nav>
+                <h2 class="logo"><span class="m">P</span>ortfo<span class="m">lio</span></h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+                <a href="#" class="btn">Subscribe</a>
+            </nav>
+    
+            <div class="content">
+                <h4>Hello, my name is</h4>
+                <h1><span>A</span>yman <span>A</span>limlahi</h1>
+                <h3>I'am a Web Developer & <span>Designer</span> </h3>
+                <div class="newslatter">
+                    <form>
+                        <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                        <input type="submit" name="submit" value="Lets Start">
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+        <!----About section start---->
+        <section class="about">
+            <div class="main">
+                <img src="ana22.PNG">
+                <div class="about-text">
+                    <h2>About <span>Me</span> </h2>
+                    <h5>Developer <span>& Designer</span></h5>
+                    <p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
+                    <button type="button">Let's Talk</button>
+                </div>
+            </div>
+        </section>
+    
+        <!-----service section start----------->
+        <div class="service">
+            <div class="title">
+                <h2><span>Our</span> Services</h2>
+            </div>
+    
+            <div class="box">
+                <div class="card">
+                    <i class="fas fa-bars"></i>
+                    <h5><span>Web</span> Development</h5>
+                    <div class="pra">
+                        <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+    
+                        <p style="text-align: center;">
+                            <a class="button" href="file:///C:/Users/asus/OneDrive/Bureau/summer%20practice/summer.html#" target="_blank">Read More</a>
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <i class="far fa-user"></i>
+                    <h5><span>Thumbnails</span> & Banners</h5>
+                    <div class="pra">
+                        <p>Every youtube channel have a attractive banner for the channel and a amazing thumbnail for attract more views for the video and grow the contenet.</p>
+    
+                        <p style="text-align: center;">
+                            <a class="button" href="https://www.fiverr.com/alimlahiaymane" target="_blank">Discover</a>
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <i class="far fa-bell"></i>
+                    <h5><span>KDP</span> Member</h5>
+                    <div class="pra">
+                        <p>I'm a amzon KDP cover designer i made a book cover for reader for they book as we know that a amazing cover book can reach more readers </p>
+    
+                        <p style="text-align: center;">
+                            <a class="button" href="https://www.amazon.com/s?k=B09HG2L5JB&ref=nb_sb_noss" target="_blank">Discover</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!---skills-->
+        <div class="skills">
+            <h1 style="text-align: center; color: brown;">Skills</h1>
+            <div class="websites">
+                <img src="1.png">
+                <p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
+                <br>
+                <button type="button" >More</button>
+            </div>
+            <div class="youtube">
+                <img src="2.png">
+                <p>I'm a youtube thumbnail and banner designer i can make a perfext thumbnail for your youtube video and a fantastic banner for your youtube channel , as you that a attractive thumbnail can provide a bring lot of views for reacht the top research in youtube case youtube algorithm is litle different so if your interested feel free to contact me for make you youtube Thumbnail & Banner</p>
+                <button type="button">More</button>
+            </div>
+            <div class="kdp">
+                <img src="3.png">
+                <p>As A KDP memeber i can make your  a beautiful book cover for your book / story/ blog or notebook also for a coloring book as you know that a attractive cover book can make a lot difference between a simple book cause it's bring more readers for that attractive one so i have made more then 100 cover book in amazon KDP for the past 4 weeks  feel free to contact me </p>
+                <button type="button">More</button>
+            </div>
+
+
+        </div>
+                <!------Contact Me------>
+                <div class="contact-me">
+                    <p>Let Me Get You A Beautiful Website<span> / </span>Thumbnail<span> /</span> Banner<span> /</span>Book Cover .</p>
+                    <a class="button-two" href="mailto:alimlahiaymane0@gmail.com" target="_blank">Hire Me</a>
+                </div>
+    
+        <!------footer start--------->
+        <footer>
+            <p>Ayman <span>Alimlahi</span></p>
+            <p>For more HTML, CSS, and JAVASCRIPT coding tutorial - please click on the link below to make a order in fiveer or Upwork :</p>
+            <div class="social">
+                <a href="https://www.facebook.com/aymane.alimlahi.79/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/ayman__alimlahii/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.fiverr.com/alimlahiaymane" target="_blank"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <p class="end">CopyRight By Ayman Alimlahi</p>
+        </footer>
+    </body>
+    </html>
+    
